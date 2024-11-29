@@ -1,0 +1,41 @@
+.ticket-card {
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .ticket-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .user-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .ticket-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .feature-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .ticket-type {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
